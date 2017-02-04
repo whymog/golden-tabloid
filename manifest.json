@@ -13,6 +13,6 @@
   },
   "permissions": [
     "activeTab",
-    "http://www.achewood.com/"
+    "http://*.achewood.com/"
   ]
 }
