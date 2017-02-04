@@ -13,31 +13,6 @@
   },
   "permissions": [
     "activeTab",
-    "http://www.achewood.com"
-  ],
-
-  "commands": {
-    "nextComic": {
-      "suggested_key": {
-        "default": "Right",
-        "mac": "Right"
-      },
-      "description": "Load the next comic"
-    },
-    "previousComic": {
-
-    },
-    "nextMonth": {
-
-    },
-    "previousMonth": {
-
-    },
-    "nextYear": {
-
-    },
-    "previousYear": {
-
-    }
-  }
+    "http://www.achewood.com/"
+  ]
 }
