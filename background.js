@@ -1,5 +1,11 @@
 chrome.browserAction.onClicked.addListener(function(tab) {
-  window.alert("An Achewood companion.\n\nArrow keys: previous/next comic\nA: view alt text");
+  window.alert(
+    `An Achewood companion.
+
+    - Left Arrow / J: previous comic
+    - Right Arrow / K: next comic
+    - A: view alt text`
+  );
 });
 
 chrome.tabs.onUpdated.addListener(function(tabId, changeInfo, tab) {
