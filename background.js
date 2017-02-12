@@ -4,7 +4,8 @@ chrome.browserAction.onClicked.addListener(function(tab) {
 
     - Left Arrow / J: previous comic
     - Right Arrow / K: next comic
-    - A: view alt text`
+    - A: view alt text
+    - R: random comic`
   );
 });
 
