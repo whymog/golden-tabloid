@@ -2,7 +2,7 @@
 
 This is an extension to make reading [Achewood][achewood] easier.  
 
-Available now for [Chrome][chrome]; Firefox version coming soon. 
+Available now for [Chrome][chrome] and [Firefox][firefox].
 
 ## Features
 
@@ -14,3 +14,4 @@ Pull requests are welcome, always, forever.
 
 [achewood]: http://www.achewood.com/
 [chrome]: https://chrome.google.com/webstore/detail/golden-tabloid/dpmaginmjlogipoijfhmbjoihmgckkjh?hl=en-US&gl=US
+[firefox]: https://addons.mozilla.org/en-US/firefox/addon/golden-tabloid/
