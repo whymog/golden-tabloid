@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "Golden Tabloid",
   "author": "Nick Cummings",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "An extension to make reading Achewood easier",
   "browser_action": {
     "default_icon": "icon.png"
@@ -13,5 +13,10 @@
   "permissions": [
     "activeTab",
     "http://*.achewood.com/"
-  ]
+  ],
+  "applications": {
+    "gecko": {
+      "id": "ext@example.org"
+    }
+  }
 }

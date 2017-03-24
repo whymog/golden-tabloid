@@ -1,6 +1,6 @@
 # GOLDEN TABLOID  
 
-This is an extension to make reading [Achewood][achewood] easier.
+This is an extension to make reading [Achewood][achewood] easier.  
 
 ## Features
 
