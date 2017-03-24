@@ -13,10 +13,5 @@
   "permissions": [
     "activeTab",
     "http://*.achewood.com/"
-  ],
-  "applications": {
-    "gecko": {
-      "id": "ext@example.org"
-    }
-  }
+  ]
 }
