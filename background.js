@@ -1,4 +1,4 @@
-chrome.browserAction.onClicked.addListener(function(tab) {
+chrome.browserAction.onClicked.addListener(function (tab) {
   window.alert(
     `An Achewood companion.
 
@@ -9,9 +9,9 @@ chrome.browserAction.onClicked.addListener(function(tab) {
   );
 });
 
-chrome.tabs.onUpdated.addListener(function(tabId, changeInfo, tab) {
+chrome.tabs.onUpdated.addListener(function (tabId, changeInfo, tab) {
   console.log(tabId, changeInfo, tab);
-  if (changeInfo.status === 'complete' && tab.active) {
-    chrome.tabs.executeScript(null, {file: "app.js"});
-  };
+  if (changeInfo.status === "complete" && tab.active) {
+    chrome.tabs.executeScript(null, { file: "app.js" });
+  }
 });
